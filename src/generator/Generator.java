@@ -39,16 +39,28 @@ public class Generator {
 		String prefixes[];
 		String suffixes[];
 
+		File base;
+		File pre;
+		File suf;
+		
 		if (type == ItemType.ACCESSORY) {
 
 		} else if (type == ItemType.WEAPON) {
-
+			base = new File("weapon.lst");
+			pre = new File("weapon_Prefixes.lst");
+			suf = new File("weapon_Suffixes.lst");
 		} else if (type == ItemType.ARMOR) {
-
+			base = new File("weapon.lst");
+			pre = new File("weapon_Prefixes.lst");
+			suf = new File("weapon_Suffixes.lst");
 		} else if (type == ItemType.CONSUMABLE) {
-
+			base = new File("weapon.lst");
+			pre = new File("weapon_Prefixes.lst");
+			suf = new File("weapon_Suffixes.lst");
 		} else if (type == ItemType.MISC) {
-
+			base = new File("weapon.lst");
+			pre = new File("weapon_Prefixes.lst");
+			suf = new File("weapon_Suffixes.lst");
 		} else {
 			// unhandled type
 			return list;
