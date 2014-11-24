@@ -1,0 +1,19 @@
+properties of an item
+	Name - the name of the item
+	Number - item number, for DB reference
+	Icon - a file type variable that points to the icon for the item
+	Description - a tooltip or description of the item
+	Type - the type of item, as described by ItemType
+	
+	DurabilityMax - max durability an item can have, this could be the number of uses a potion has left or a more classical how much whacking an item has left before it breaks
+	DurabilityCur - the current var of the above.
+	
+	Optional Parameters
+		Prefix - Adds additional qualities to the item
+		Suffix - same as above, but at the end of an item
+			
+WeaponItem
+	DamageDie - number of die rolled to determine damage
+	DamageDieSides - number of sides on the die rolled to damage
+	
+	Broken - whether or not if the weapon is currently usable.

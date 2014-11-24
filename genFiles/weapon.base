@@ -1,0 +1,11 @@
+//Name ; number ; icon ; type ; durabilityMax
+Clever ; 0 ; cleve.png ; WEAPON ; 50 
+Dagger ; 1 ; dagger.png ; WEAPON ; 50
+Bow ; 2 ; bow.png ; WEAPON ; 50
+Broadsword ; broad.png ; WEAPON ; 50
+Crossbow ; crossbow.png ; WEAPON ; 50
+Scythe ; scythe.png ; WEAPON ; 50
+Sword ; sword.png ; WEAPON ; 50
+Spear ; spear.png ; WEAPON ; 50
+katana ; katana.png ; WEAPON ; 50
+Halberd ; spear2.png ; WEAPON ; 50
