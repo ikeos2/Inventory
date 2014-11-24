@@ -86,7 +86,7 @@ public class Generator {
 		 * ItemModifier Array
 		 *  -prefixes
 		 *  -suffixes
-		 * String Array
+		 * Item Array
 		 *  -base
 		 *************************/
 		

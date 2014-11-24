@@ -18,6 +18,8 @@ public class WeaponItem implements Item {
 	int damageDieSides = 0;
 	
 	boolean broken = false;
+	boolean stackable = false;
+	int maxStack = 1;
 	
 	/***************************
 	 * 
@@ -55,6 +57,9 @@ public class WeaponItem implements Item {
 		return durabilityCur;
 	}
 	
+	
+
+	public int maxStack(){ return 1; } //weapons aren't stackable
 	
 	/**
 	 * Creates a new weapon
