@@ -1,11 +1,11 @@
-//Name ; number ; icon ; type ; durabilityMax
-Clever ; 0 ; cleve.png ; WEAPON ; 50 
-Dagger ; 1 ; dagger.png ; WEAPON ; 50
-Bow ; 2 ; bow.png ; WEAPON ; 50
-Broadsword ; broad.png ; WEAPON ; 50
-Crossbow ; crossbow.png ; WEAPON ; 50
-Scythe ; scythe.png ; WEAPON ; 50
-Sword ; sword.png ; WEAPON ; 50
-Spear ; spear.png ; WEAPON ; 50
-katana ; katana.png ; WEAPON ; 50
-Halberd ; spear2.png ; WEAPON ; 50
+//String gName,int gDurability, int gDie, int gDSides, int gNumber, File gIcon, String gDescription
+Clever ; 50 ; 1 ; 6 ; 0 ; cleve.png ; A large sharp knife
+Dagger ; 50 ; 1 ; 6 ; 1 ; dagger.png ; A sharp long knife
+Bow ; 50 ; 1 ; 8 ; 2 ; bow.png ; A pretty average looking bow
+Broadsword ; 50 ; 1 ; 6 ; 0 ; broad.png ; Bastard
+Crossbow ; 50 ; 1 ; 6 ; 0 ; crossbow.png ; A mechanical bow!
+Scythe ; 50 ; 1 ; 6 ; 0 ; scythe.png ; "Don't fear the reaper"
+Sword ; 50 ; 1 ; 6 ; 0 ; sword.png ; Schwing!
+Spear ; 50 ; 1 ; 6 ; 0 ; spear.png ; An average looking spear with a pointy tip
+katana ; 50 ; 1 ; 6 ; 0 ; katana.png ; A weapon from the far east, not common to find one laying about freely
+Halberd ; 50 ; 1 ; 6 ; 0 ; spear2.png ; Even better than a spear!
