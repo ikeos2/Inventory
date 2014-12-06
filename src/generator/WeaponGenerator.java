@@ -101,8 +101,8 @@ public class WeaponGenerator {
 			int pre = rand.nextInt(10) + 1;
 			int suf = rand.nextInt(5) + 1;
 			WeaponItem temp = null;
-			ItemModifier temp2 = null;
-			ItemModifier temp3 = null;
+			ItemModifier temp2 = null;//prefix
+			ItemModifier temp3 = null; //suffix
 
 			if (pre == 2) {
 				// there is a prefix
@@ -114,6 +114,8 @@ public class WeaponGenerator {
 			}
 
 			temp = items[rand.nextInt(items.length) + 1];
+			temp.addModifier(0, temp2);
+			temp.addModifier(1, temp3);
 
 		}
 

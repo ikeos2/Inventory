@@ -10,6 +10,8 @@ import java.util.Random;
 
 import items.*;
 
+
+//TODO: redesign this class
 public class Generator {
 	/**
 	 * Generates N many items of given type
@@ -88,7 +90,7 @@ public class Generator {
 		// generate the items
 		for (int i = 0; i < n; i++) {
 			/**
-			 * TODO: this ONLY works for weapons at the moment
+			 * 
 			 * psudo code
 			 * Determine if it gets a prefix(1 in 10) - add rules for this and line below for things like potions which will have no prefix/suffix
 			 * Determine if it gets a suffixes( 1 in 5)
@@ -113,7 +115,7 @@ public class Generator {
 				temp3 = suffixes[rand.nextInt(suffixes.length)+1];
 			}
 			
-			temp = items[rand.nextInt(items.length)+1];
+			//temp = items[rand.nextInt(items.length)+1];
 			
 		}
 
